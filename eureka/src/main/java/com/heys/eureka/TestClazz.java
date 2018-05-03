@@ -48,11 +48,11 @@ public class TestClazz {
                     infos[i]=uInfo;
                 }
 
-                /*if(i == 1132){
+                if(i == 1132){
                     ConstantUtf8Info uInfo = (ConstantUtf8Info)infos[i];
                     uInfo.setBytes("http://172.18.16.10:8195/register".getBytes());
                     infos[i]=uInfo;
-                }*/
+                }
             }
         }
         cf.setConstantPool(infos);
